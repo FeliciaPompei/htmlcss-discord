@@ -171,11 +171,6 @@ section{
 .section-content{
     width:calc(50% - 125px);
     padding-top:30px;
-
-}
-
-.margin-right{
-    margin-right: 200px;
 }
 
 .section-content p{
