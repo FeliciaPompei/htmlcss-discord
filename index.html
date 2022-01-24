@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Discord</title>
         <!--  Font Whitney via cdn -->
-        <link rel="stylesheet" href="http://fonts-cdnfonts.com/css/whitney-2">
+        <link href="http://fonts.cdnfonts.com/css/whitney" rel="stylesheet">
+
         <!-- Font-Awesome cdn -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
@@ -15,7 +16,7 @@
     <body>
         <header>
             <!-- menu bar --> 
-            <div class="container clearfix">
+            <div class="wrapper clearfix">
                 <div class="top-bar-logo float-left">
                     <img class="logo" src="img/logo.svg" alt="Discord logo">
                 </div>
@@ -37,34 +38,63 @@
             </div>
             <div class="jambotron">
                 <img id="jambotron-image" src="img/jumbo.png" alt="jumbotron  image">
-            <div class="jambotron-content">
-                <h1>Il tuo posto per parlare</h1>
-                <p>
-                    Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici
-                    che voule passare il tuo tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
-                </p>
-                <button class="button jambotron-button"><i class="fas fa-long-arrow-alt-down arrow-padding"></i>Scarica per Mac</button>
-                <button class="button jambotron-button bg-black ">Apri Discord nel tuo brower</button>
+                <div class="jambotron-content">
+                    <h1 class="margin-bottom">Il tuo posto per parlare</h1>
+                    <p class="margin-bottom">
+                        Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici
+                        che voule passare il tuo tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
+                    </p>
+                    <button class="button jambotron-button"><i class="fas fa-long-arrow-alt-down arrow-padding"></i>Scarica per Mac</button>
+                    <button class="button jambotron-button bg-black ">Apri Discord nel tuo brower</button>
+                </div>
             </div>
         </header>
 
         <main>
-            <section class="container clearfix">
-                <div class="float-left">
-                    <img src="img/item1.svg" alt="">
+            <section>
+                <div class="container clearfix">
+                    <div class="section-image float-left ">
+                        <img src="img/item1.svg" alt="">
+                    </div>
+                    <div class="section-content float-left padding-left">
+                        <h2 class="margin-bottom">Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+                        <p>
+                            I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata
+                            senza intasare una chat di gruppo. 
+                        </p>
 
+                    </div>
                 </div>
-                <div class="float-left">
-                    <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eligendi incidunt, velit placeat neque at doloribus accusamus commodi corrupti pariatur. Hic alias asperiores et architecto laborum pariatur eligendi corporis excepturi.
-                    </p>
+            </section>
 
+            <section>
+                <div class="container clearfix">
+                    <div class="section-image float-right ">
+                        <img src="img/item2.svg" alt="">
+                    </div>
+                    <div class="section-content float-right padding-right">
+                        <h2 class="margin-bottom">Dove trovarsi è facile</h2>
+                        <p>
+                            Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare. 
+                        </p>
+
+                    </div>
                 </div>
+            </section>
 
-                
+            <section>
+                <div class="container clearfix">
+                    <div class="section-image float-left ">
+                        <img src="img/item3.svg" alt="">
+                    </div>
+                    <div class="section-content float-left padding-left">
+                        <h2 class="margin-bottom">Da pochi a un fandom</h2>
+                        <p>
+                            Dai inzio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile, Concedi ai membri poteri speciali, crea canali privati, e molto altro.
+                        </p>
 
-
+                    </div>
+                </div>
             </section>
         </main>
         
