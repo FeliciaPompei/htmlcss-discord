@@ -5,7 +5,13 @@
 }
 
 .clearfix{
-    content: "";
+    content: " ";
     display: table;
     clear: both;
+}
+
+body{
+    width:90%;
+    max-width:1200px;
+
 }
