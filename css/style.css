@@ -157,13 +157,10 @@ section{
 
 .section-image{
     width:50%;
-    height:50vh;
-    
 }
 
 .section-image img{
     width:100%;
-    
 }
 
 /* section content */
@@ -183,4 +180,8 @@ section{
 
 .padding-right{
     padding-right:125px;
+}
+
+.bg-lightgray{
+    background-color:rgb(241, 241, 241);
 }
