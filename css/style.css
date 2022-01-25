@@ -165,6 +165,11 @@ section{
 
 /* section content */
 
+
+section:nth-child(even){
+    background-color:rgb(241, 241, 241);
+}
+
 .section-content{
     width:calc(50% - 125px);
     padding-top:30px;
@@ -182,6 +187,3 @@ section{
     padding-right:125px;
 }
 
-.bg-lightgray{
-    background-color:rgb(241, 241, 241);
-}
