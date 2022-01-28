@@ -140,7 +140,7 @@ a:hover {
 
 /* section */
 
-section{
+.height{
     position:relative;
     height:80vh;
 }
@@ -187,3 +187,29 @@ section:nth-child(even){
     padding-right:125px;
 }
 
+.container-center{
+    text-align:center;
+    width:85%;
+    margin:0 auto;
+}
+
+section .container-center p{
+    width:75%;
+    margin:15px auto 0;
+    
+    font-size: 1.1rem;
+}
+section .container-center .sign-up h2{
+    /* width:50%;
+    margin: 0 auto; */
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-position-x: center;
+}
+
+section .container-center .sign-up h2{
+    margin-bottom: 50px;
+    font-size:1.5rem;
+}
