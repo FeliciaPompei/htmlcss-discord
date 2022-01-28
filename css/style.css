@@ -53,7 +53,7 @@ header{
     padding:0 20px;
 }
 
-.wrapper nav ul li a{
+a{
     text-decoration: none;
     color:white;
     font-weight:600;
@@ -196,15 +196,16 @@ section:nth-child(even){
 section .container-center p{
     width:75%;
     margin:15px auto 0;
-    
     font-size: 1.1rem;
 }
-section .container-center .sign-up h2{
-    /* width:50%;
-    margin: 0 auto; */
+section .container-center .sign-up .stars-title{
+    width:35%;
+    margin: 1rem auto;
+    padding: 2rem 1rem 1rem 1rem;
     background-image: url(../img/stars.svg);
+
     background-repeat: no-repeat;
-    background-position: center;
+    
     background-size: contain;
     background-position-x: center;
 }
@@ -212,4 +213,22 @@ section .container-center .sign-up h2{
 section .container-center .sign-up h2{
     margin-bottom: 50px;
     font-size:1.5rem;
+}
+section .container-center .sign-up .button{
+    margin-bottom:30px;
+}
+.bg-violet{
+    background-color: rgb(196, 171, 243);
+    color:white;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(27, 27, 51);
+    height:70vh;
+}
+
+.container-footer{
+    
 }
